@@ -1,0 +1,4 @@
+KDB - Knowledge Database
+
+This DuinoCoinI2C_ESP32_uPyMiner beta version is currently in testing phase
+Documentation will be updated from time to time. Enjoy! - JK Rolling
