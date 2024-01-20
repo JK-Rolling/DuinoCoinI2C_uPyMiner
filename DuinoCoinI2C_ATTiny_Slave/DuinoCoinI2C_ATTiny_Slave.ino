@@ -1,5 +1,5 @@
 /*
-  DoinoCoin_ATTiny_Slave.ino
+  DoinoCoinI2C_ATTiny_Slave.ino
   adapted from Luiz H. Cassettari
   by JK Rolling
 */

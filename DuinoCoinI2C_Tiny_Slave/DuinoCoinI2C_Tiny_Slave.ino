@@ -1,5 +1,5 @@
 /*
-  DoinoCoin_Tiny_Slave.ino
+  DoinoCoinI2C_Tiny_Slave.ino
   adapted from Luiz H. Cassettari
   by JK Rolling
 */
