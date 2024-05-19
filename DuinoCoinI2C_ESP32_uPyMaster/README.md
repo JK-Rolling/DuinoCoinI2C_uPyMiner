@@ -17,7 +17,7 @@ This micropython firmware binary running in ESP32 will act as a host to get jobs
 1. Visit https://esp.huhn.me/
 2. Click `CONNECT` button
 3. Select the ESP32 and click `Connect`. You may see something along the line CP2102
-4. On row 0x1000, click `SELECT`, then browse to the .bin file downloaded in step 1
+4. On row 0x1000, click `SELECT`, then browse to the .bin file downloaded
 5. Click `ERASE`
 6. Click `PROGRAM`
 
@@ -53,11 +53,11 @@ When the mining rig is ready, change `DUINO_OFFLINE_TESTBENCH_MODE` to `False` t
 |Name|Description|Default|
 |:-|:-|:-|
 |I2C0_EN|Enable/disable I2C0|True|
-|I2C0_AUTO_SCAN|Scan I2C worker address|True|
+|I2C0_AUTO_SCAN|Scan I2C0 worker address|True|
 |I2C0_ADDR|Hardcode worker address. Ignored if I2C0_AUTO_SCAN is True|20,21|
 |I2C0_RIG_ID|Worker specific name|None|
-|I2C1_EN|Enable/disable I2C0|True|
-|I2C1_AUTO_SCAN|Scan I2C worker address|True|
+|I2C1_EN|Enable/disable I2C1|False|
+|I2C1_AUTO_SCAN|Scan I2C1 worker address|True|
 |I2C1_ADDR|Hardcode worker address. Ignored if I2C1_AUTO_SCAN is True|14,15|
 |I2C1_RIG_ID|Worker specific name|None|
 |PERIODIC_REPORT|Print summary report periodically|60|
@@ -68,3 +68,8 @@ When the mining rig is ready, change `DUINO_OFFLINE_TESTBENCH_MODE` to `False` t
 |I2C1_SDA_PIN|I2C0 SDA Pin|4|
 |I2C1_SCL_PIN|I2C0 SCL Pin|5|
 |I2C1_SCL_FRQ|I2C0 clock frequency|100000|
+
+## Notes
+Current ESP32 is soft limiting worker count to 3 only.
+
+Stay tuned for future update when the limit can be removed and support up to 9 workers!
