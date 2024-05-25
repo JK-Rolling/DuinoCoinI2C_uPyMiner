@@ -1,5 +1,5 @@
 /*
- * DuinoCoin_RPI_Pico_DualCore.ino
+ * DuinoCoinI2C_Pico_DualCore.ino
  * created by JK Rolling
  * 27 06 2022
  * 
