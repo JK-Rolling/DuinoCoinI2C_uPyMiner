@@ -1,6 +1,9 @@
 # DuinoCoinI2C_uPyMiner
 This project design to mine Duino-Coin using an ESP32 MicroPython as a I2C master and AVR as worker
 
+> [!IMPORTANT]
+> This project is superceded by [DuinoI2C_ESP](https://github.com/JK-Rolling/DuinoI2C_ESP) due to MicroPython limited capability and speed.
+
 # Testbench
 ![](assets/esp32_nano_testbench.gif)
 ```
