@@ -72,4 +72,7 @@ When the mining rig is ready, change `DUINO_OFFLINE_TESTBENCH_MODE` to `False` t
 ## Notes
 Current ESP32 is soft limiting worker count to 3 only.
 
-Stay tuned for future update when the limit can be removed and support up to 9 workers!
+~~Stay tuned for future update when the limit can be removed and support up to 9 workers!~~
+
+> [!IMPORTANT]
+> This project is superceded by [DuinoI2C_ESP](https://github.com/JK-Rolling/DuinoI2C_ESP) due to MicroPython limited capability and speed.
